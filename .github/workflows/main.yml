@@ -15,8 +15,8 @@ jobs:
 
     - uses: actions/checkout@v1
     - name: nysaCI Website builder
-      env: |
+      env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-	  BUILD_NUMBER: ${{ steps.buildnumber.outputs.build_number }}
+          BUILD_NUMBER: ${{ steps.buildnumber.outputs.build_number }}
       run: |
           bash ./push.sh
