@@ -26,7 +26,7 @@ theme = "hello-friend-ng"
     copyright = ""
 
     [languages.en.params.logo]
-      logoText = "hello friend ng"
+      logoText = "$ nysascape"
       logoHomeLink = "/"
     # or
     #
