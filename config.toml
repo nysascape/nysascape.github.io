@@ -1,46 +1,68 @@
 baseurl = "https://nysascape.digital"
 languageCode = "en-us"
-theme = "terminal"
-paginate = 5
+theme = "hello-friend-ng"
 
 [params]
-  # dir name of your blog content (default is `content/posts`)
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "nysascape's website"
+  keywords = "homepage, blog, science, informatics, development, programming"
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "red"
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
-  # show selector to switch language
-  showLanguageSelector = false
-  # set theme to full screen width
-  fullWidthTheme = false
-  # center theme with default width
-  centerTheme = false
-  # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
 
 [languages]
   [languages.en]
-    languageName = "English"
-    title = "nysascape@website:~$"
-    subtitle = "My website."
-    keywords = "coding, homepage"
+    title = "nysascape@website:$"
+    subtitle = ""
+    keywords = ""
     copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "nysascape"
+      logoText = "hello friend ng"
       logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
 
+	# You can create a language based menu
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "about"
-	title = "nysascape@website:~/about$" 
         name = "About"
         url = "/about"
       [[languages.en.menu.main]]
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase"
+
+# And you can even create generic menu
+[menu]
+  [[menu.main]]
+    name = "contact"
+    weight = 0
+    url = "/contact"
+  [[menu.main]]
+    name = "posts"
+    weight = 3
+    url = "/posts"
+  [[menu.main]]
+    name = "about me"
+    weight = 1
+    url = "/about"
+[[params.social]]
+      name = "GitHub"
+      icon = "fab fa-github fa-2x"
+      url = "https://github.com/nysascape"
+[[params.social]]
+      name = "Twitter"
+      icon = "fab fa-twitter fa-2x"
+      url = "https://twitter.com/jagogardiner"
