@@ -25,7 +25,7 @@ git config --global user.email "nysadev@raphielgang.org"
 git config --global user.name "nysascape"
 git add .
 # Commit changes.
-msg="[nysaCI]: Push website #${BUILD_NUMBER} (@${GITHUB_ACTOR})"
+msg="[nysaCI]: Push website #${SEMAPHORE_BUILD_NUMBER})"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
@@ -34,7 +34,7 @@ git commit -m "$msg"
 
 # Push source and build repos.
 git remote rm origin
-git remote add origin https://nysascape:${password}@github.com/nysascape/nysascape.github.io.git
+git remote add origin https://nysascape:${GITHUB_SECRET}@github.com/nysascape/nysascape.github.io.git
 git push origin master
 
 # Come Back up to the Project Root
