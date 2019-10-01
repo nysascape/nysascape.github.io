@@ -13,7 +13,7 @@ jobs:
       with:
         token: ${{secrets.github_token}}
         
-    - uses: actions/checkout@source
+    - uses: actions/checkout@master
     - name: nysaCI Website builder
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
