@@ -17,6 +17,7 @@ jobs:
     - name: nysaCI Website builder
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
           BUILD_NUMBER: ${{ steps.buildnumber.outputs.build_number }}
       run: |
           bash ./push.sh
