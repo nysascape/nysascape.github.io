@@ -1,11 +1,11 @@
 version: v1.0
-name: [nysaCI]
+name: nysaCI
 agent:
   machine:
     type: e1-standard-2
     os_image: ubuntu1804
 blocks:
-  - name: "nysaCI: Web"
+  - name: "nysaCI // Web"
     task:
       secrets:
         - name: GITHUB_SECRET
