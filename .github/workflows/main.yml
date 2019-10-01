@@ -20,12 +20,3 @@ jobs:
           BUILD_NUMBER: ${{ steps.buildnumber.outputs.build_number }}
       run: |
           bash ./push.sh
-          git fetch origin master
-          git checkout master -f
-
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v2.4.0
-      env:
-         ACTIONS_DEPLOY_KEY: ${{ secrets.GH_PAT }}
-         PUBLISH_BRANCH: master
-         PUBLISH_DIR: .

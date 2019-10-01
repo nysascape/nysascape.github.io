@@ -33,7 +33,7 @@ git commit -m "$msg"
 
 # Push source and build repos.
 git remote rm origin
-git remote add origin https://nysascape:${GITHUB_TOKEN}@github.com/nysascape/nysascape.github.io
+git remote add origin https://nysascape:${GH_PAT}@github.com/nysascape/nysascape.github.io
 git push origin master
 
 # Come Back up to the Project Root
