@@ -7,7 +7,7 @@ paginate = 5
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
   # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "orange"
+  themeColor = "red"
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
   # show selector to switch language
