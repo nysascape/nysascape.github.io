@@ -12,11 +12,19 @@ jobs:
       uses: einaregilsson/build-number@v1 
       with:
         token: ${{secrets.github_token}}
-
-    - uses: actions/checkout@v1
+        
+    - uses: actions/checkout@source
     - name: nysaCI Website builder
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BUILD_NUMBER: ${{ steps.buildnumber.outputs.build_number }}
       run: |
           bash ./push.sh
+          git fetch origin master
+          git checkout master
+
+    - name: GitHub Pages Deploy
+      uses: maxheld83/ghpages@v0.2.1
+      env:
+          BUILD_DIR = "."
+      secrets: ${{ secrets.GH_PAT }}
