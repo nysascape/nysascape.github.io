@@ -28,7 +28,7 @@ git add .
 msg="[nysaCI]: Push website #${BUILD_NUMBER} (@${GITHUB_ACTOR})"
 if [ $# -eq 1 ]
   then msg="$1"
-f
+fi
 
 git commit -m "$msg"
 
