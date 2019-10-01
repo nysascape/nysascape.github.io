@@ -1,14 +1,16 @@
 version: v1.0
-name: '[nysaCI]'
+name: [nysaCI]
 agent:
   machine:
     type: e1-standard-2
     os_image: ubuntu1804
 blocks:
-  - name: CI
+  - name: "nysaCI: Web"
     task:
-      env_vars: []
+      secrets:
+        - name: GITHUB_SECRET
       jobs:
-        - name: Build website
-          commands:
-            - bash ./push.sh
+      - name: Build
+        commands:
+          - checkout
+          - bash ./push.sh
