@@ -27,7 +27,7 @@ git config --global user.email "nysadev@raphielgang.org"
 git config --global user.name "nysascape"
 git add .
 # Commit changes.
-msg="[nysaCI] // Push website #${SEMAPHORE_BUILD_NUMBER}"
+msg="[nysaCI] // Push website //"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
