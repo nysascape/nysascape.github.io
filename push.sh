@@ -2,7 +2,9 @@
 
 # Sorry @baalajimaestro for kanging <3
 
-git submodule add https://github.com/rhazdon/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
+cd themes
+git clone https://github.com/baalajimaestro/modified-hello-friend-ng hello-friend-ng
+cd ..
 curl -sLo hugo_0.58.1_Linux-64bit.deb https://github.com/gohugoio/hugo/releases/download/v0.58.3/hugo_extended_0.58.3_Linux-64bit.deb
 sudo dpkg -i hugo_0.58.1_Linux-64bit.deb
 rm -rf hugo_0.58.1_Linux-64bit.deb
