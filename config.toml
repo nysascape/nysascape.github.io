@@ -1,50 +1,29 @@
+Title = "nysascape@website:~$"
 baseurl = "https://nysascape.digital"
-languageCode = "en-us"
+languageCode = "en-gb"
+title = "nysascape@website:~$"
 theme = "hello-friend-ng"
 
 [params]
+  author = "Jago Gardiner"
+  homeSubtitle = "Error in build!!"
+  avatarurl = "https://avatars2.githubusercontent.com/u/23172221?s=460&v=4"
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
-
-  # Metadata mostly used in document's head
-  description = "nysascape's website"
-  keywords = "homepage, blog, science, informatics, development, programming"
-  images = [""]
-
-  # Directory name of your blog content (default is `content/posts`)
+  keywords = "homepage, blog programming"
   contentTypeName = "posts"
-  # Default theme "light" or "dark"
   defaultTheme = "dark"
-
+  copyright = "Copyrights reserved // nysascape"
+  [params.logo]
+    logoText     = "$ nysascape"
+    logoHomeLink = "/"
 [languages]
-  [languages.en]
-    title = "nysascape@website:$"
-    subtitle = ""
-    keywords = ""
-    copyright = ""
-
-    [languages.en.params.logo]
-      logoText = "$ nysascape"
-      logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
-
-	# You can create a language based menu
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
-
-# And you can even create generic menu
+    [languages.en]
+      subtitle  = ""
+      weight    = 1
+      copyright = 'nysascape'
 [menu]
   [[menu.main]]
     name = "contact"
@@ -58,10 +37,18 @@ theme = "hello-friend-ng"
     name = "about me"
     weight = 1
     url = "/about"
+  [[menu.main]]
+    name = "semaphore"
+    weight = 2
+    url = "https://nysascape.semaphoreci.com/"
 [[params.social]]
       name = "GitHub"
       icon = "fab fa-github fa-2x"
       url = "https://github.com/nysascape"
+[[params.social]]
+      name = "Instagram"
+      icon = "fab fa-instagram fa-2x"
+      url = "https://instagram.com/jagogardiner"
 [[params.social]]
       name = "Twitter"
       icon = "fab fa-twitter fa-2x"
