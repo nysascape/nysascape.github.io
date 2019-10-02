@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nysascape@website:~$</title>
+    <link>https://nysascape.digital/</link>
+    <description>Recent content on nysascape@website:~$</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>nysascape</copyright>
+    
+	<atom:link href="https://nysascape.digital/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://nysascape.digital/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nysascape.digital/about/</guid>
+      <description>Hi! Welcome to my about page.
+I&amp;rsquo;m Jago Gardiner, mostly known on the internet as nysa[scape, dev], a 16 year old from the UK. I study Computer Science, Photography and Maths at A-Level, and I&amp;rsquo;m currently in my first year of study.
+I mostly work in ROM development and kernel development, which is what I&amp;rsquo;m mostly known for. I&amp;rsquo;m a beginner security researcher also, and I&amp;rsquo;m dabbling in some AI development due to my Computer Science class exploring it.</description>
+    </item>
+    
+  </channel>
+</rss>
