@@ -30,9 +30,9 @@ theme = "hello-friend-ng"
     weight = 0
     url = "/contact"
   [[menu.main]]
-    name = "posts"
+    name = "works"
     weight = 3
-    url = "/posts"
+    url = "/works"
   [[menu.main]]
     name = "about me"
     weight = 1
@@ -41,6 +41,11 @@ theme = "hello-friend-ng"
     name = "semaphore"
     weight = 2
     url = "https://nysascape.semaphoreci.com/"
+  [[menu.main]]
+    name = "posts"
+    weight = 4
+    url = "/posts"
+
 [[params.social]]
       name = "GitHub"
       icon = "fab fa-github fa-2x"
