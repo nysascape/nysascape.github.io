@@ -1,3 +1,8 @@
++++
+title = "$ ./about-me"
+id = "about"
++++
+
 Hi! Welcome to my about page.
 
 I'm Jago Gardiner, mostly known on the internet as nysa[scape, dev], a 16 year
