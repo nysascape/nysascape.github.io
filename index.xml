@@ -12,7 +12,7 @@
     
     
     <item>
-      <title></title>
+      <title>$ ./about-me</title>
       <link>https://nysascape.digital/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -20,6 +20,27 @@
       <description>Hi! Welcome to my about page.
 I&amp;rsquo;m Jago Gardiner, mostly known on the internet as nysa[scape, dev], a 16 year old from the UK. I study Computer Science, Photography and Maths at A-Level, and I&amp;rsquo;m currently in my first year of study.
 I mostly work in ROM development and kernel development, which is what I&amp;rsquo;m mostly known for. I&amp;rsquo;m a beginner security researcher also, and I&amp;rsquo;m dabbling in some AI development due to my Computer Science class exploring it.</description>
+    </item>
+    
+    <item>
+      <title>$ ./contact-me</title>
+      <link>https://nysascape.digital/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nysascape.digital/contact/</guid>
+      <description>If you ever need to contact me, well: I&amp;rsquo;m pretty much always on Telegram, sometimes I&amp;rsquo;m busy and may not get around to your message. I sleep mostly from 12/1am - 7/10pm GMT, so I might be asleep.
+If you don&amp;rsquo;t have Telegram, no problem. You can always catch me on Instagram, or E-Mail (for formal matters) nysadev@raphielgang.org
+Any other socials you might find my handle under are not always reliable, and I might not be there to instantly respond.</description>
+    </item>
+    
+    <item>
+      <title>$ ./works</title>
+      <link>https://nysascape.digital/works/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nysascape.digital/works/</guid>
+      <description>I work on many things, but here is a somewhat list:
+ Acrux kernel - MI 8 Lite MI 8 Lite device trees: Device tree / Vendor tree Procyon kernel - MI A2 Lite (wip) MI 8 Lite Android 10 device organization Lunysa (Lunarixus x nysascape)  </description>
     </item>
     
   </channel>

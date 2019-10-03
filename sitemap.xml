@@ -4,7 +4,14 @@
   
   <url>
     <loc>https://nysascape.digital/about/</loc>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nysascape.digital/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nysascape.digital/works/</loc>
   </url>
   
   <url>
