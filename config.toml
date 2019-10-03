@@ -31,15 +31,15 @@ theme = "hello-friend-ng"
     url = "/contact"
   [[menu.main]]
     name = "works"
-    weight = 3
+    weight = 1
     url = "/works"
   [[menu.main]]
     name = "about me"
-    weight = 1
+    weight = 2
     url = "/about"
   [[menu.main]]
     name = "semaphore"
-    weight = 2
+    weight = 3
     url = "https://nysascape.semaphoreci.com/"
   [[menu.main]]
     name = "posts"
