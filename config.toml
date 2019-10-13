@@ -40,7 +40,7 @@ theme = "hello-friend-ng"
   [[menu.main]]
     name = "semaphore"
     weight = 3
-    url = "https://nysascape.semaphoreci.com/"
+    url = "https://semaphoreci.com/nysascape/"
   [[menu.main]]
     name = "posts"
     weight = 4
