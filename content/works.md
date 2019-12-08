@@ -7,7 +7,7 @@ I work on many things, but here is a somewhat list:
 
 * [Aliases](https://github.com/nysascape/aliases) / [Scripts (v2)](https://github.com/nysascape/scriptsv2) / [Scripts](https://github.com/nysascape/scripts)
 
-* [Acrux kernel - MI 8 Lite](https://github.com/nysascape/kernel_xiaomi_acrux)
+* [Acrux kernel - MI 8 Lite](https://github.com/nysascape/kernel_xiaomi_acrux) [![Build Status](https://semaphoreci.com/api/v1/nysascape/kernel_xiaomi_acrux/branches/staging/badge.svg)](https://semaphoreci.com/nysascape/kernel_xiaomi_acrux)
 * Exploits repository: https://github.com/nysascape/exploits
 * This very website: https://github.com/nysascape/nysascape.github.io
 * Tic Tac Toe AI in C#: https://github.com/nysascape/tictacai
