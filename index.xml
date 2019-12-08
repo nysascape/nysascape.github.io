@@ -34,13 +34,29 @@ Any other socials you might find my handle under are not always reliable, and I 
     </item>
     
     <item>
+      <title>$ ./posts</title>
+      <link>https://nysascape.digital/posts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nysascape.digital/posts/</guid>
+      <description>! Nothing here to see yet. !</description>
+    </item>
+    
+    <item>
       <title>$ ./works</title>
       <link>https://nysascape.digital/works/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nysascape.digital/works/</guid>
       <description>I work on many things, but here is a somewhat list:
- Acrux kernel - MI 8 Lite MI 8 Lite device trees: Device tree / Vendor tree Procyon kernel - MI A2 Lite (wip) MI 8 Lite Android 10 device organization Lunysa (Lunarixus x nysascape)  </description>
+ Aliases / Scripts (v2) / Scripts
+ Acrux kernel - MI 8 Lite
+ Exploits repository: https://github.com/nysascape/exploits
+ This very website: https://github.com/nysascape/nysascape.github.io
+ Tic Tac Toe AI in C#: https://github.com/nysascape/tictacai
+ MI 8 Lite device trees: Device tree / Vendor tree
+ MI 8 Lite common trees: Device tree / Vendor tree
+ Procyon kernel - MI A2 Lite (wip)</description>
     </item>
     
   </channel>
