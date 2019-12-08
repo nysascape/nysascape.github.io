@@ -13,7 +13,7 @@ I mostly work in ROM development and kernel development, which is what I'm
 mostly known for. I'm a beginner security researcher also, and I'm dabbling
 in some AI development due to my Computer Science class exploring it.
 
-I currently run Windows 10 Pro on my machine alongside Ubuntu 18/19.xx. For
+I currently run Windows 10 Pro on my machine alongside ElementaryOS. For
 programming, my main language is C# - but I know C, Java and some HTML. I use
 bash scripting for literally everything - CI for the win, am I right?
 
