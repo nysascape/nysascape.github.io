@@ -5,12 +5,13 @@ agent:
     type: e1-standard-2
     os_image: ubuntu1804
 blocks:
-  - name: "nysaCI // Web"
+  - name: nysaCI // Web
     task:
       secrets:
+        - name: BOT_API_TOKEN
         - name: GITHUB_SECRET
       jobs:
-      - name: Build
-        commands:
-          - checkout
-          - bash ./push.sh
+        - name: Build
+          commands:
+            - checkout
+            - bash ./push.sh
