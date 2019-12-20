@@ -6,7 +6,7 @@ theme = "hello-friend-ng"
 
 [params]
   author = "Jago Gardiner"
-  homeSubtitle = "Error in build!!"
+  homeSubtitle = "Welcome to my website!"
   avatarurl = "https://avatars2.githubusercontent.com/u/23172221?s=460&v=4"
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
@@ -57,4 +57,4 @@ theme = "hello-friend-ng"
 [[params.social]]
       name = "Twitter"
       icon = "fab fa-twitter fa-2x"
-      url = "https://twitter.com/jagogardiner"
+      url = "https://twitter.com/nysascape"
