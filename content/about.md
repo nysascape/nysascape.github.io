@@ -5,7 +5,7 @@ id = "about"
 
 Hi! Welcome to my about page.
 
-In short, I'm a 16 year old security researcher/computer science student from the UK,
+In short, I'm a 17 year old security researcher/computer science student from the UK,
 interested in Android development, cyber security, Photography and Maths. Aside from
 the technical stuff, I enjoy skating, surfing, and Italian food.
 
