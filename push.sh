@@ -59,4 +59,4 @@ git push origin master
 cd ..
 
 # Cast built message
-tg_channelcast "[nysaCI] Website successfully built!! Find it live at: https://nysascape.digital"
+tg_channelcast "[nysaCI] Website successfully built!! Find it live at: https://nysascape.tech"
