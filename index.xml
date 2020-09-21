@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>nysascape@website:~$</title>
-    <link>https://nysascape.digital/</link>
+    <link>https://nysascape.tech/</link>
     <description>Recent content on nysascape@website:~$</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>nysascape</copyright>
     
-	<atom:link href="https://nysascape.digital/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nysascape.tech/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>$ ./about-me</title>
-      <link>https://nysascape.digital/about/</link>
+      <link>https://nysascape.tech/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nysascape.digital/about/</guid>
+      <guid>https://nysascape.tech/about/</guid>
       <description>Hi! Welcome to my about page.
 In short, I&amp;rsquo;m a 17 year old security researcher/computer science student from the UK, interested in Android development, cyber security, Photography and Maths. Aside from the technical stuff, I enjoy skating, surfing, and Italian food.
 Currently I&amp;rsquo;m in Year 12, studying Maths, Photography and Computer Science at A-Level. Plans for the future are to continue my CS studies at University but who knows what can happen.</description>
@@ -24,30 +24,30 @@ Currently I&amp;rsquo;m in Year 12, studying Maths, Photography and Computer Sci
     
     <item>
       <title>$ ./contact-me</title>
-      <link>https://nysascape.digital/contact/</link>
+      <link>https://nysascape.tech/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nysascape.digital/contact/</guid>
+      <guid>https://nysascape.tech/contact/</guid>
       <description>If you ever need to contact me, well: I&amp;rsquo;m pretty much always on Telegram, sometimes I&amp;rsquo;m busy and may not get around to your message. I sleep mostly from 12/1am - 7/10pm GMT, so I might be asleep.
-If you don&amp;rsquo;t have Telegram, no problem. You can always catch me on Instagram, or E-Mail (for formal matters) jago@nysascape.digital
+If you don&amp;rsquo;t have Telegram, no problem. You can always catch me on Instagram, or E-Mail (for formal matters) jago@nysascape.tech
 Any other socials you might find my handle under are not always reliable, and I might not be there to instantly respond.</description>
     </item>
     
     <item>
       <title>$ ./posts</title>
-      <link>https://nysascape.digital/posts/</link>
+      <link>https://nysascape.tech/posts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nysascape.digital/posts/</guid>
+      <guid>https://nysascape.tech/posts/</guid>
       <description>! Nothing here to see yet. !</description>
     </item>
     
     <item>
       <title>$ ./works</title>
-      <link>https://nysascape.digital/works/</link>
+      <link>https://nysascape.tech/works/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nysascape.digital/works/</guid>
+      <guid>https://nysascape.tech/works/</guid>
       <description>I work on many things, but here is a somewhat list:
  Aliases / Scripts (v2) / Scripts
  Acrux kernel - MI 8 Lite 
