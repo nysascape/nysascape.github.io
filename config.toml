@@ -1,4 +1,4 @@
-Title = "nysascape@website:~$"
+Title = "nysascape's website"
 baseurl = "https://nysascape.tech"
 languageCode = "en-gb"
 title = "nysascape's website"
@@ -17,7 +17,7 @@ theme = "hello-friend-ng"
   defaultTheme = "dark"
   copyright = "Copyrights reserved // nysascape"
   [params.logo]
-    logoText     = "$ nysascape"
+    logoText     = "nysascape"
     logoHomeLink = "/"
 [languages]
     [languages.en]
