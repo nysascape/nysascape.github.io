@@ -34,11 +34,11 @@ theme = "hello-friend-ng"
     weight = 1
     url = "/works"
   [[menu.main]]
-    name = "about me"
+    name = "about"
     weight = 2
     url = "/about"
   [[menu.main]]
-    name = "git (self-hosted)"
+    name = "git"
     weight = 3
     url = "https://git.nysascape.tech/nysa"
   [[menu.main]]
