@@ -1,7 +1,7 @@
 Title = "nysascape@website:~$"
 baseurl = "https://nysascape.tech"
 languageCode = "en-gb"
-title = "nysascape@website:~$"
+title = "nysascape's website"
 theme = "hello-friend-ng"
 
 [params]
@@ -38,22 +38,18 @@ theme = "hello-friend-ng"
     weight = 2
     url = "/about"
   [[menu.main]]
-    name = "semaphore"
+    name = "git (self-hosted)"
     weight = 3
-    url = "https://semaphoreci.com/nysascape/"
+    url = "https://git.nysascape.tech/nysa"
   [[menu.main]]
-    name = "posts"
+    name = "git (github)"
     weight = 4
-    url = "/posts"
+    url = "https://github.com/nysascape"
 
 [[params.social]]
       name = "GitHub"
       icon = "fab fa-github fa-2x"
       url = "https://github.com/nysascape"
-[[params.social]]
-      name = "Instagram"
-      icon = "fab fa-instagram fa-2x"
-      url = "https://instagram.com/jagogardiner"
 [[params.social]]
       name = "Twitter"
       icon = "fab fa-twitter fa-2x"

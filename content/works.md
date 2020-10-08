@@ -11,7 +11,7 @@ I work on many things, but here is a somewhat list:
 * Exploits repository: https://github.com/nysascape/exploits
 * This very website: https://github.com/nysascape/nysascape.github.io
 * Tic Tac Toe AI in C#: https://github.com/nysascape/tictacai
-* MI 8 Lite device trees: [Device tree](https://github.com/nysascape/device_xiaomi_platina) / [Vendor tree](https://github.com/nysascape/vendor_xiaomi_platina)
-* MI 8 Lite common trees: [Device tree](https://github.com/xiaomi-sdm660/android_device_xiaomi_platina) / [Vendor tree](https://github.com/xiaomi-sdm660/android_vendor_xiaomi_platina)
-* [Procyon kernel - MI A2 Lite (wip)](https://github.com/nysascape/procyon_kernel_daisy)
-* [Lunysa (Lunarixus x nysascape)](https://github.com/lunysa)
+* Pixel 3 (XL)/3a (XL) unified kernel: https://github.com/nysascape/kernel_google_msm-4.9
+* Pixel 3 (XL) powerhint module: https://github.com/nysascape/pixel3-xl-powerhint
+
+As well as this, I have many contributions to custom ROMs and Android as a whole - checkout my [GitHub](https://github.com/nysascape) or [personal self-hosted Git](git.nysascape.tech) to see any other projects or collaborations.
